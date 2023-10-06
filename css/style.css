@@ -1,0 +1,509 @@
+/* common css start */
+h1,h2,h3,h4,h5,h6,ul,ol,li,p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --primary-font: 'Ubuntu', sans-serif;
+    --heading-font: 'Abril Fatface', cursive;
+    --secondary-font: 'Open Sans', sans-serif;
+}
+.common p{
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 14px;
+    color: #475866;
+}
+.common p .open{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    color: #6c7882;
+}
+.common h2{
+    font-family: var(--heading-font);
+    font-size: 32px;
+    color: #0f2f44;
+}
+/* common css end */
+
+/* header css start */
+header{
+    background-color: #0f2f44;
+    color: #a7afb6; 
+    padding: 20px 0px;
+    font-family: var(--primary-font);
+}
+/* header css end */
+/* nav css start */
+#primary-nav #menu .navbar-nav{
+    position: relative;
+}
+#primary-nav #menu ul li a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    color: #222222;
+    padding: 40px 20px;
+    text-transform: capitalize;
+    display: inline-block;
+    transition: 0.5s;
+}
+#primary-nav #menu ul li a:hover,#primary-nav #menu ul li button:hover{
+    color: #ffd462;
+    background-color: #fff9e6;
+
+}
+#primary-nav #menu ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #999999;
+    color: #999999;
+    margin: 10px;
+}
+
+/* nav css end */
+/* banner css start */
+#banner{
+    background-image: url(../img/main-body-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+}
+#banner h2{
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 50px;
+    color: #0f2f44;
+    
+}
+#banner h1{
+    font-family: var(--heading-font);
+    font-size: 80px;
+    color: #0f2f44;
+}
+#banner h3{
+    font-size: 32px;
+    letter-spacing: 15px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: #8484bf;
+}
+#banner p{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: #9fa7b2;
+}
+
+#banner a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    background: none;
+    padding: 10px 20px;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    color: #8484bf;
+    border-radius: 5%;
+    transition: 0.7s;
+    position: relative;
+}
+#banner button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #ffff;
+    color: #8484bf;
+    margin: 10px;
+    border: none;
+    background-color: #ffff;
+    transition: 0.7s;
+    position: relative;
+}
+#banner a:hover,#banner button:hover{
+    border: 1px solid #8484bf;
+    background-color: #8484bf;
+    color: #d6d6e8;
+
+}
+/* banner css end */
+/* about css start */
+#about{
+    margin-top: 100px;
+}
+
+#about .about-box .list{
+    margin-top: 20px;
+}
+
+#about .about-box .list p{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    padding: 10px 30px;
+    color:#475866;
+
+}
+
+#about .about-box .list .list1{
+    margin-right: 40px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: #ffff;
+    border: #ffff;
+    color: #0f2f44;
+    border-radius: 5%;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+
+}
+#about .about-box .list .list1:hover{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid #ffc712;
+    background-color: #ffc712;
+    color: #0f2f44;
+  
+
+}
+/* about css end */
+
+/* skills css start */
+#ourskills{
+    margin-top: 80px;
+}
+#ourskills .ourskills-box img{
+    width: 700px;
+}
+#ourskills .ourskills-text{
+    text-align: right;
+}
+#ourskills .ourskills-text h2{
+    margin-bottom: 30px;
+}
+#ourskills .ourskills-text img{
+    width: 410px;
+    height: 80%;
+}
+
+/* skills css end */
+
+/* service css start */
+#service{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+}
+#service .service-card{
+    margin: 50px 0px;
+}
+#service .service-box .service-info h3{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    margin: 30px 20px;
+}
+#service .service-box .service-info p{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: #7c7c7c;
+    margin: 30px 20px;
+}
+#service .service-box .service-icon{
+    width: 100px;
+    background-color: #e9e9e9;
+    padding: 0px 15px;
+}
+#service .service-box .service-info{
+    width: calc(100% - 100px);
+    background-color: #eeeeee;
+}
+#service .service-box{
+    background-color: #e9e9e9;
+    position: relative;
+    border-radius: 3%;
+
+}
+
+#service .service-box .overlay{
+    position: absolute;
+    background-color: #0f2f44;
+    inset: 0;
+    transform: scale(0);
+    transform-origin: left;
+    transition: .5s;
+    
+}
+#service .service-box:hover .overlay{
+    transform: scale(1);
+    border-radius: 3%;
+}
+#service .service-box .overlay h3{
+    color: #ffff;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+}
+#service .service-box .overlay img{
+    padding: 30px 155px 20px;
+
+}
+#service .service-box .overlay a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ffc712;
+    background-color: #ffc712;
+    padding: 9px;
+    display: inline-block;
+    margin: 0px 155px;
+}
+#service .service-box .overlay a i{
+    text-align: center;
+    color: #222222;
+}
+
+
+/* service css end */
+/* portfolio css start */
+#portfolio{
+    margin-top: 50px;
+
+}
+#portfolio .portfolio-card{
+    margin: 50px 0px;
+}
+#portfolio .portfolio-box{
+    position: relative;
+}
+#portfolio .portfolio-box .overlay{
+    position: absolute;
+    text-align: center;
+    margin-top: 326px;
+    inset: 0;
+    transform: scale(0);
+    transform-origin: bottom;
+    transition: .5s;
+}
+#portfolio .portfolio-box:hover .overlay{
+    transform: scale(1);
+    border-radius: 3%;
+}
+#portfolio .portfolio-box .overlay h2{
+    background-color: #ffff;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 35px 0px;
+    color: #0f2f44;
+    
+}
+/* portfolio css end */
+/* browse css start */
+#browse{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+#browse .browse-box a{
+    
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #ffff;
+    border: #ffff;
+    color: #0f2f44;
+    border-radius: 5%;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.15);
+
+}
+#browse .browse-box:hover a{
+    
+    border: 1px solid #ffc712;
+    background-color: #ffc712;
+    color: #0f2f44;
+  
+}
+/* browse css end */
+
+
+/* test css start */
+#test{
+    background-color: #f5f5f5;
+
+}
+#test .portfolio-card{
+    margin-top: 50px;
+}
+#test #test-box{
+    margin-top: 50px;
+    background-color: #e9e9e9;
+    border-radius: 3%;
+    padding: 0px 0px;
+}
+#test #test-box .test-info p{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: #2c4253;
+}
+#test #test-box .test-info{
+    padding: 30px 10px;
+}
+#test #test-box .test-info h3{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    color: #0f2f44;
+    margin-top: 30px;
+
+}
+
+/* test css end */
+
+/* blog css start */
+#blog{
+    margin-top: 60px;
+}
+#blog .blog-box{
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    
+}
+#blog .blog-box img{
+    margin-top: 10px;
+    width: 350px;
+}
+#blog .blog-box .blog-info p{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 30px 0px 20px 0px;
+    color: #9c9c9c;
+}
+#blog .blog-box .blog-info h4{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #222222;
+}
+#blog .blog-box .blog-info h5{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #9c9c9c;
+
+}
+#blog .blog-box .blog-info .flexxx h5{
+    width: 100px;
+
+}
+#blog .blog-box .blog-info .flexxx a{
+    width: calc(100% - 100px);
+    color:#9c9c9c;
+}
+#blog .blog-box:hover{
+    background-color: #0f2f44;
+}
+/* blog css end */
+/* footer css start */
+#footer{
+    margin-top: 30px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.15);
+}
+#footer .footer-box{
+    margin-top: 90px;
+}
+#footer .footer-box p{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    margin-top: 30px;
+    color: #828282;
+}
+#footer .footer-box .footer-icon li{
+    width: 20%;
+}
+#footer .footer-box .footer-icon a i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px 10px;
+    margin-top: 20px;
+    color: #0f2f44;
+    border: 1px solid #0f2f44;
+    background-color: #ffff;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 60px;
+    transition: .5s;
+
+}
+#footer .footer-box .footer-icon li a i:hover{
+    background-color: #0f2f44;
+    color: #ffff;
+}
+#footer .footer-box .titel1 h4{
+    color: #111111;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#footer .footer-box .address{
+    margin: 30px 0px;
+}
+#footer .footer-box .address .icon i{
+    width: 30%;
+}
+#footer .footer-box .address .information{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: #828282;
+    width: 70%;
+    padding-left: 10px;
+    
+}
+#footer .footer-box .titel2 h1{
+    font-size: 14px;
+}
+#footer .footer-box .navicon{
+    margin: 30px 0px;
+}
+#footer .footer-box .navicon li a{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: #828282;
+    padding-left: 10px;
+
+}
+#footer .footer-box .pic-1{
+    margin: 30px 0px;
+
+}
+#copy p{
+    padding: 25px 0px;
+    color: #727272;
+    position: relative;
+    background-color: #f1f1f1;
+    transition: .5s;
+}
+#copy p:hover{
+    color: #fdcc2f;
+
+}
+
+/* footer css end */
